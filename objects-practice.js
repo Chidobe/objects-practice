@@ -82,3 +82,13 @@ function multiplyNumeric(){
 
 alert(menu.name.first)
 alert(menu.name.age[1])
+
+const myNickname = prompt("what is your nickname?", "none");
+const stats = "relationshipStatus";
+const relStatus = prompt("what is your relationship status?", "single");
+
+menu.name.nickname = myNickname;
+menu[stats] = relStatus;
+
+console.log(menu.name)
+console.log(menu)
