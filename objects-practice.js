@@ -62,7 +62,8 @@ isEmpty(salaries);
 let menu = {
   width: 200,
   height: 300,
-  title: "My menu"
+  title: "My menu",
+  name: { first: "john", surname: "doe", age: [14, 15]},
 };
 
 multiplyNumeric(menu);
@@ -79,4 +80,5 @@ function multiplyNumeric(){
     console.log(menu)
 };
 
-
+alert(menu.name.first)
+alert(menu.name.age[1])
