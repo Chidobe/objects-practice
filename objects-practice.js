@@ -95,19 +95,31 @@
 
 
 
-//Constructors
-//create your own objects
-function Bands(name, nationality, genre, members, formed, split, albums){
+// //Constructors
+// //create your own objects
+// function Bands(name, nationality, genre, members, formed, split, albums){
+//     this.name = name;
+//     this.nationality = nationality;
+//     this.genre = genre;
+//     this.members = members;
+//     this.formed = formed;
+//     this.split = split;
+//     this.albums = albums;
+// };
+
+
+// const theJacksons = new Bands('The Jacksons', 'America', 'Pop', 5, 1974, true, [{name: 'Love me', released: 1980}, {name: 'Come Home', released: 1981}])
+
+// console.log(theJacksons);
+
+
+// create a constructor function for staff biodata
+ function Staff(name, dateOfBirth, age, dept){
     this.name = name;
-    this.nationality = nationality;
-    this.genre = genre;
-    this.members = members;
-    this.formed = formed;
-    this.split = split;
-    this.albums = albums;
-};
+    this.dateOfBirth = dateOfBirth;
+    this.age = age;
+    this.department = dept;
+ };
 
-
-const theJacksons = new Bands('The Jacksons', 'America', 'Pop', 5, 1974, true, [{name: 'Love me', released: 1980}, {name: 'Come Home', released: 1981}])
-
-console.log(theJacksons);
+ const newStaff = new Staff(prompt('What is your name?', 'First Surname'), )
+ alert(newStaff.name)
