@@ -105,5 +105,9 @@ function Bands(name, nationality, genre, members, formed, split, albums){
     this.formed = formed;
     this.split = split;
     this.albums = albums;
-}
+};
 
+
+const theJacksons = new Bands('The Jacksons', 'America', 'Pop', 5, 1974, true, [{name: 'Love me', released: 1980}, {name: 'Come Home', released: 1981}])
+
+console.log(theJacksons);
