@@ -131,9 +131,16 @@
  let obj = {};
  obj.name = 'john';
  obj.age = 87;
- console.log(obj)
+ console.log(obj);
 
  let obj1 = {name : 'john', age : 67};
 
 // 2 - new keyword
-let obj2 = new Object
+let obj2 = new Object();
+obj2.name = "john";
+obj2.age = 45;
+
+//mutability of objects, any changes to 'o' will affect obj2
+const o = obj2;
+o.color = 'red';
+console.log(obj2);
