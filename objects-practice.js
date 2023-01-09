@@ -144,3 +144,11 @@ obj2.age = 45;
 const o = obj2;
 o.color = 'red';
 console.log(obj2);
+
+//converting an object to an array
+const myArray = Object.values(obj)
+console.log(myArray);
+
+//converting an object to string
+const myString = JSON.stringify(obj2);
+console.log(myString);
